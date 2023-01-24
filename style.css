@@ -1,0 +1,22 @@
+
+body [role="grid"] {
+  display: flex;
+  flex-direction:column;
+  width: 500px;
+}
+
+
+body [role="grid"] [role="row"]:first-child {
+  background:#ccc;
+  padding:0.5rem;
+}
+
+body [role="grid"] > [role="row"] {
+  display: flex;
+  justify-content: space-around;
+  padding:1rem;
+}
+
+button[role="gridcell"]  {
+
+}

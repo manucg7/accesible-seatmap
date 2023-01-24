@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Making a seat map accessible on public transport</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="accessible-seatmap" role="grid" aria-label="Seat map">
+    <div role="row">
+      <div role="columnheader"> A </div>
+      <div role="columnheader"> B </div>
+    </div>
+
+    <div role="row">
+      <div role="gridcell">
+        <button tabindex="-1" aria-disabled="false" aria-label="seat"> 1A </button>
+      </div>
+
+      <div role="gridcell">
+        <button tabindex="-1" aria-disabled="false" aria-label="seat"> 1B </button>
+      </div>
+    </div>
+
+    <div role="row">
+      <div role="gridcell">
+        <button tabindex="-1" aria-disabled="false" aria-label="seat"> 2A </button>
+      </div>
+
+      <div role="gridcell">
+        <button tabindex="-1" aria-disabled="false" aria-label="seat"> 2B </button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
